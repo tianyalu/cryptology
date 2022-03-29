@@ -65,14 +65,14 @@
 * 优点：加密公式简单、解密容易理解；
 * 缺点：容易被**穷举法** 破解。
 
-![image-20220309195223458](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203091952576.png)
+![202203091952576](https://s2.loli.net/2022/03/29/azuXgRsEw2kveU4.png)
 
 * 明文：`simon`
 * 密文：`BAABAABAAAABBAAABBBAABBAB`
 
-![image-20220309195641955](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203091956016.png)
+![202203091956016](https://s2.loli.net/2022/03/29/ot9cdrQY3ZpK5i7.png)
 
-#### 2.3.2 维吉尼亚密码（多表替换）
+#### 2.3.2 维吉尼亚密码（多表替换)
 
 为了提高单表替换破译的难度发明的，使用词组作为秘钥，词组中每一个字母作为索引来确定采用的替换表。
 
@@ -94,7 +94,7 @@
 * 秘钥 M 行，找到密文 P，得到列：D
 * 秘钥结束后循环使用
 
-![image-20220309195924152](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203091959258.png)
+![202203091959258](https://s2.loli.net/2022/03/29/tHTIO3hqYWZpUa9.png)
 
 明文：`Android and Java are good friends`
 
@@ -139,13 +139,13 @@
 
 正、反读，意义截然不同，所以，加密中有：字段、逐字倒序（单词、字母）
 
-![image-20220309202936107](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203092029154.png)
+![202203092029154](https://s2.loli.net/2022/03/29/47HCf6GovBM3Xhe.png)
 
 ### 3.4 日升昌银票
 
 现今仅存一张汇票，也只是店中伙计无意放入口袋中忘记销毁才“幸免于难”。从纸张、水印、印章、密码到书法，古人在小小汇票上层层加设了五道关卡，运用智慧，实现了汇票的有效防伪。
 
-![image-20220309203205938](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203092032132.png)
+![202203092032132](https://s2.loli.net/2022/03/29/5yTNRmfwBMC4rEl.png)
 
 #### 3.4.1 密码-月份
 
@@ -192,7 +192,7 @@ https://www.bilibili.com/video/BV197411H7XX?from=search&seid=212482397985612139&
 * 将草质信纸、醋同时放入密码筒中；一旦被暴力破解，信纸将被醋溶解，密码将得以保存；
 * 5个转轮，每个转轮26个字母组成，密码虽然只有5位，却有26的5次方，1180多万的可能；已经接近近代的机械密码了
 
-![image-20220310201526887](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203102015007.png)
+![202203102015007](https://s2.loli.net/2022/03/29/rbTdMB2cZwJDika.png)
 
 ## 五、机械密码
 
@@ -204,16 +204,14 @@ https://www.bilibili.com/video/BV197411H7XX?from=search&seid=212482397985612139&
 
 ### 5.2 摩斯密码（滴答声）
 
-![image-20220310202030688](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203102020804.png)
-
-![image-20220310202446436](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203102024551.png)
+![image-20220310202446436](https://s2.loli.net/2022/03/29/nufbV4S7Tp6B8wK.png)
 
 ### 5.3 `Enigma`密码机
 
 * 二战时期，德国太过依赖和相信`Enigma`密码机；
 * `Enigma`的破解 **提前结束了二战** ，最终德国战败告终。
 
-![image-20220310202644696](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203102026783.png)
+![202203102026783](https://s2.loli.net/2022/03/29/rQCBioex2d4hnIT.png)
 
 ### 5.4 九七式紫色密码机
 
@@ -225,7 +223,7 @@ https://www.bilibili.com/video/BV197411H7XX?from=search&seid=212482397985612139&
 * 1942年 中途岛海战，美国大胜日本，密码的重要性不言而喻；
 * 二战末期的1945年8月6日和9日，美军对日本广岛和长崎投掷原子弹造成大量平民和军人伤亡。
 
-![image-20220310203244958](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203102032119.png)
+![202203102032119](https://s2.loli.net/2022/03/29/EZOXhPts1VyA3z6.png)
 
 ### 5.5 `Sigaba`密码机
 
@@ -243,11 +241,11 @@ https://www.bilibili.com/video/BV197411H7XX?from=search&seid=212482397985612139&
 
 单钥图解：
 
-![image-20220311191940950](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203111919076.png)
+![202203111919076](https://s2.loli.net/2022/03/29/xzarcqhoKpY31kM.png)
 
 公钥图解：
 
-![image-20220311192019162](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203111920333.png)
+![202203111920333](https://s2.loli.net/2022/03/29/fYhLdJoTUHKSXAB.png)
 
 ### 6.2 计算机的诞生
 
@@ -582,7 +580,7 @@ https://www.bilibili.com/video/BV197411H7XX?from=search&seid=212482397985612139&
 
 ### 13.2 设计思想
 
-![image-20220323193035516](https://gitee.com/tianyalusty/pic-go-repository/raw/master/img/202203231930639.png)
+![202203231930639](https://s2.loli.net/2022/03/29/2BWqlvLdtAx9gDj.png)
 
 ## 十四、国密
 
